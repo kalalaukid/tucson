@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Move to Tucson - Get More for Less</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #d8b4fe;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      background: #fff;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-top: -2rem;
+      border-radius: 10px;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+    form {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-top: 1rem;
+      font-weight: 600;
+    }
+    input, select, textarea, button {
+      padding: 0.75rem;
+      margin-top: 0.25rem;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      background-color: #9333ea;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 2rem;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #7e22ce;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>How Far Your Dollar Goes in Tucson</h1>
+    <p>Get more home, more space, and more peace of mind—without the California price tag.</p>
+  </header>
+
+  <section>
+    <h2>Why Tucson?</h2>
+    <ul>
+      <li>✅ More home for your money</li>
+      <li>✅ Lower property taxes & no estate tax</li>
+      <li>✅ Wide open spaces & clean desert air</li>
+      <li>✅ Family-friendly neighborhoods & strong community</li>
+      <li>✅ Ideal for remote workers and retirees</li>
+    </ul>
+
+    <h2>Start Your Move Today</h2>
+    <p>Fill out the form below and we’ll send you a custom Tucson home list + relocation guide based on your budget.</p>
+
+    <form action="https://tally.so/r/your-form-id" method="POST">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required />
+
+      <label for="location">Current City & State</label>
+      <input type="text" id="location" name="location" required />
+
+      <label for="price">Price Range</label>
+      <input type="text" id="price" name="price" placeholder="$400k–$600k, etc." required />
+
+      <label for="timeline">When Are You Looking to Move?</label>
+      <select id="timeline" name="timeline" required>
+        <option value="ASAP">ASAP</option>
+        <option value="3-6 months">3–6 Months</option>
+        <option value="Just browsing">Just Browsing</option>
+      </select>
+
+      <label for="priority">What's Most Important to You?</label>
+      <select id="priority" name="priority" required>
+        <option value="Lower cost of living">Lower cost of living</option>
+        <option value="Bigger home">Bigger home</option>
+        <option value="Better weather">Better weather</option>
+        <option value="Safety">Safety</option>
+        <option value="Lower taxes">Lower taxes</option>
+      </select>
+
+      <button type="submit">Get My Tucson Guide</button>
+    </form>
+  </section>
+</body>
+</html>
